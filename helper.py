@@ -58,6 +58,7 @@ def output_corresponding_movies(df, user_pairs):
 
     return np.array(account_movies_list)
 
+### Other Utility Helper functions
 
 # Get movie_id's of each cluster of a single account
 def collect_movies_in_clusters(account_movies, pred_labels):
