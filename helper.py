@@ -88,10 +88,10 @@ def calculate_cluster_ratio_difference(keys_0, keys_1, values_0, values_1):
     ratio_diff = 0
     for key in list(set(keys_0) | set(keys_1)):
         if (key in keys_0) & (key in keys_1):
-            ratio_diff += np.abs(values_0[keys_0.index(key)]- values_1[keys_1.index(key)])
+            ratio_diff += np.abs(values_0[keys_0.index(key)]/np.sum(values_0)- values_1[keys_1.index(key)]/np.sum(values_1))
         elif key in keys_0:
-            ratio_diff += values_0[keys_0.index(key)]
+            ratio_diff += values_0[keys_0.index(key)]/np.sum(values_0)
         else:
-            ratio_diff += values_1[keys_1.index(key)]
+            ratio_diff += values_1[keys_1.index(key)]/np.sum(values_1)
 
     return ratio_diff
