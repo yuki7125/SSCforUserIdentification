@@ -5,5 +5,5 @@ Standard recommendation methods rely on the assumption that each account is used
 This project is based off of the paper "Guess Who Rated This Movie:Identifying Users Through Subspace Clustering" by Zhang et al., which attempted to apply Generalized Principal Component Analysis (GPCA), a subspace clustering method. Unfortunately, they were not able to produce good results with GPCA due to the presence of noise in the data. Meanwhile, Sparse Subspace Clustering (SSC) is currently the state-of-art in subspace clustering and is known to be able to handle noise in the data.
 
 # Notes  
-SSC_for_User_Identification.ipynb is the main file
+SSC_for_User_Identification.ipynb is the main file  
 Sparse_Subspace_Clustering_for_User_Identification.pdf is the full paper
