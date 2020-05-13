@@ -6,3 +6,4 @@ This project is based off of the paper "Guess Who Rated This Movie:Identifying U
 
 # Notes  
 SSC_for_User_Identification.ipynb is the main file
+Sparse_Subspace_Clustering_for_User_Identification.pdf is the full paper
